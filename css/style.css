@@ -1,0 +1,67 @@
+.center {
+    text-align: center;
+  }
+  .guess {
+    display: inline;
+    font-size: 2em;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px 20px;
+    background-color: tan;
+    
+
+  } 
+  ul {
+      list-style: none;
+      padding: 0;
+  }
+  img {
+      display: inline;
+      width: 200px;
+      height: 100px;
+  }
+  #footer {
+      width: 100%;
+      border-top: solid 2px black;
+      background-color: teal;
+      position: absolute;
+      bottom: 0;
+  }
+
+  html {
+    box-sizing: 'border-box'
+  }
+  #input-parent {
+    width: 160px;
+    margin: 5% auto 50px auto;
+    position: relative;
+  }
+  #player-input {
+    border-radius: 100%;
+    margin: 10px auto 10px auto;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 45px;
+    z-index: -1;
+    background-color: rgb(231, 203, 165);
+  }
+  #player-input::placeholder {
+    font-size: 60px;
+  }
+  #submit {
+    display: inline;
+    border-radius: 100%;
+    margin: 10px auto 10px auto;
+    height: 55px;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+  }
+  #app {
+      background-color: lightskyblue;
+      padding-bottom: 50px;
+  }
+  body {
+    background-color: lightskyblue;
+  }

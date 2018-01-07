@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel='stylesheet' type='text/css' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' href="css/style.css">
+  </head>
+  <body>
+
+      <div id='app' class="center container">
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title'>Welcome to the Guessing Game</h1>
+          <h2 id='subtitle'>Where chance is your only friend!</h2>
+          <h3 id='instruction'>Guess the number between 1-100 to win!</h3>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input 
+            id="player-input"
+            type='text' 
+            placeholder='#' 
+            autofocus=autofocus
+            size="3"
+            maxlength="3"
+            min="1"
+            max='100'
+            >
+            <button id="submit" class="btn-success">Submit</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id='guess-list'>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button id="reset" class="btn-warning">Reset</button>
+            <button id="hint" class="btn-primary">Hint</button>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class="center">
+        <div class='row'>
+          <div class='col-md-4'>
+            <img src='img/fa-logo@2x.png'>
+          </div>
+
+          <div class='col-md-4'>
+            <h4>Project by Johnny Araujo</h4>
+          </div>
+
+          <div class='col-md-4'>
+            <img src='img/grace_hopper_academy.png'>
+          </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript"
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript"
+    src="js/GuessingGame.js"></script>
+    
+  </body>
+</html>
